@@ -54,6 +54,9 @@ Sure, here's a step-by-step guide on how we triggered the USB plug event and exe
 
      ```
      udevadm control --reload-rules
+
+     udevadm control --reload-rules
+     sudo systemctl restart systemd-udevd
      ```
 
 10. **Test the Setup:**
